@@ -1,0 +1,15 @@
+import { Meta, StoryObj } from '@storybook/vue3-vite';
+import { default as FButton } from './FButton.vue';
+declare const meta: Meta<typeof FButton>;
+export default meta;
+type Story = StoryObj<typeof meta>;
+export declare const Primary: Story;
+export declare const Secondary: Story;
+export declare const Success: Story;
+export declare const Danger: Story;
+export declare const Outlined: Story;
+export declare const Rounded: Story;
+export declare const Loading: Story;
+export declare const Disabled: Story;
+export declare const Sizes: Story;
+export declare const AllVariants: Story;

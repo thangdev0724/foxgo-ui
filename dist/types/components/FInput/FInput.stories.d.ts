@@ -1,0 +1,12 @@
+import { Meta, StoryObj } from '@storybook/vue3-vite';
+import { default as FInput } from './FInput.vue';
+declare const meta: Meta<typeof FInput>;
+export default meta;
+type Story = StoryObj<typeof meta>;
+export declare const Default: Story;
+export declare const WithLabel: Story;
+export declare const WithError: Story;
+export declare const Disabled: Story;
+export declare const Readonly: Story;
+export declare const Password: Story;
+export declare const Sizes: Story;

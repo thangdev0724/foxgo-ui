@@ -1,0 +1,11 @@
+import { Meta, StoryObj } from '@storybook/vue3-vite';
+import { default as FCard } from './FCard.vue';
+declare const meta: Meta<typeof FCard>;
+export default meta;
+type Story = StoryObj<typeof meta>;
+export declare const Default: Story;
+export declare const Elevated: Story;
+export declare const Bordered: Story;
+export declare const Hoverable: Story;
+export declare const WithFooter: Story;
+export declare const CustomHeader: Story;

@@ -9,7 +9,7 @@ lerna-debug.log*
 
 node_modules
 .DS_Store
-dist
+# dist - Keep dist folder for GitHub installation
 dist-ssr
 coverage
 *.local

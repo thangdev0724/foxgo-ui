@@ -1,0 +1,19 @@
+// =====================================================
+// FoxGo UI - Main Stylesheet
+// =====================================================
+
+// Import variables
+@use 'variables' as *;
+
+// Base styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Component styles will be imported here
+// @use '../components/FButton/FButton.scss';
+// @use '../components/FInput/FInput.scss';
+// @use '../components/FCard/FCard.scss';
+
